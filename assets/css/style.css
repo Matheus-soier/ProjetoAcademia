@@ -17,23 +17,14 @@ body {
 
 /* Header */
 
-.back-header img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
 header {
+    position: fixed;
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 80px;
+    height: 70px;
     background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
 }
 
 .container-header {
@@ -97,5 +88,45 @@ header {
 }
 
 /* Main */
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-image: linear-gradient(90deg, #26252bf1, #141418, #141418);
+}
 
+.banner img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    max-height: 740px;
+    max-width: 1800px;
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+.titulo-atividades {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.titulo-atividades h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.titulo-atividades h2:nth-last-child(2) {
+    position: absolute;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #ff0000;
+    opacity: 0.3;
+    z-index: -1;
+    top: 43px;
+}
 

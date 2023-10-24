@@ -15,6 +15,26 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    width: 15px;
+    background-color: #ff0000c6;
+}
+
+.wpp-fixo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+   
+}
+
+.wpp-fixo img {
+    width: 120px;
+}
+
 /* Header */
 
 header {

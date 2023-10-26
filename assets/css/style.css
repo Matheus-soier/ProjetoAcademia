@@ -140,11 +140,12 @@ header {
     margin: auto;
     width: 1200px;
     height: min-content;
-    min-height: 700px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .titulo-atividades {
@@ -235,7 +236,7 @@ header {
     width: 1000px;
     height: 450px;
     background-color: #000;
-    margin-top: 70px;
+    margin: 70px 0;
 }
 
 .borda-superior-direita {

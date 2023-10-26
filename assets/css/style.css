@@ -28,7 +28,7 @@ body {
     position: fixed;
     bottom: 0;
     right: 0;
-   
+   z-index: 99;
 }
 
 .wpp-fixo img {
@@ -140,13 +140,11 @@ header {
     margin: auto;
     width: 1200px;
     height: min-content;
-    min-height: 600px;
-}
-
-.atividades {
+    min-height: 700px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .titulo-atividades {
@@ -167,7 +165,7 @@ header {
     color: #ff0000;
     opacity: 0.3;
     z-index: -1;
-    top: -40px;
+    top: -43px;
 }
 
 .container-atv {
@@ -187,7 +185,6 @@ header {
     cursor: pointer;
     display: inline-block;
 }
-
 
 .atividade img {
     width: 100%;
@@ -222,10 +219,102 @@ header {
     z-index: 2;
 }
 
+
 .container-atv:hover :not(:hover) img,
 .container-atv:hover :not(:hover) h3{
     opacity: 0.7;
     filter: saturate(0%);
+}
+
+.planos-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1000px;
+    height: 450px;
+    background-color: #000;
+    margin-top: 70px;
+}
+
+.borda-superior-direita {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-top: 120px solid rgb(255, 255, 255);
+}
+
+.borda-inferior-esquerda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid rgb(255, 255, 255);
+}
+
+.planos {
+    display: flex;
+    width: 25%;
+    height: 80%;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.planos h3 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.planos h3 span {
+    color: #ff0000;
+}
+
+.item-plano {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.item-plano i {
+    font-size: 25px;
+}
+
+.item-plano p {
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.btn-planos a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 7px 25px;
+    border-radius: 20px;
+    background-color: #ff0000;
+    transition: all .3s ease-in-out;
+}
+
+.btn-planos a:hover {
+    background-color: #b00101;
+}
+
+.btn-planos a span {
+    color: #fff;
+    font-size: 10px;
 }
 
 /* Footer */
@@ -393,5 +482,11 @@ footer {
 @media (max-width: 1450px) {
     .banner {
         height: 100%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .wpp-fixo {
+        display: none;
     }
 }

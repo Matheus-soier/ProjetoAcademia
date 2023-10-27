@@ -21,15 +21,12 @@ Nosso site incluirá as seguintes funcionalidades:
 
 - **Página Inicial** 🏠: Uma introdução à academia com informações gerais e um carrossel de imagens para destacar os serviços.
 
-- **Horários e Aulas** 🕒: Uma página que exibirá os horários das aulas, programas de treinamento e instrutores.
-
 - **Planos de Assinatura** 💳: Uma seção onde os visitantes podem ver os planos de assinatura disponíveis, preços e opções de pagamento.
 
 - **Contato** 📞: Um formulário de contato para os visitantes entrarem em contato com a academia.
 
 - **Localização** 🗺️: Um mapa mostrando a localização da academia.
 
-- **Galeria de Fotos** 📸: Uma página com fotos da academia, instalações e eventos.
 
 ## Tecnologias Utilizadas 🛠️
 

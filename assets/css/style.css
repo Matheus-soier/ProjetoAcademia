@@ -354,10 +354,6 @@ header {
     text-transform: uppercase;
 }
 
-.left-app img {
-    width: 180px;
-}
-
 .download-app {
     display: flex;
     align-items: center;
@@ -366,16 +362,25 @@ header {
 
 .qrcode-app img {
     width: 180px;
+    border-radius: 5px;
 }
 
 .lojas {
     display: flex;
     flex-direction: column;
+    gap: 15px;    
+}
+
+.lojas img {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 
 .right-app img {
     width: 350px;
-    /* margin-top: -70px; */
 }
 
 /* Footer */

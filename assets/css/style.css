@@ -236,7 +236,7 @@ header {
     width: 1000px;
     height: 450px;
     background-color: #000;
-    margin: 70px 0;
+    margin: 50px 0;
 }
 
 .borda-superior-direita {
@@ -269,6 +269,10 @@ header {
     justify-content: space-between;
     padding: 20px;
     border-radius: 30px;
+}
+
+.anual {
+    border: 3px solid #ff0000;
 }
 
 .planos h3 {
@@ -316,6 +320,62 @@ header {
 .btn-planos a span {
     color: #fff;
     font-size: 10px;
+}
+
+.aplicativo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100vw;
+    background-color: #000000;
+    gap: 20px;
+}
+
+.left-app {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.app-info h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.app-info p {
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+.info-app h3 {
+    text-transform: uppercase;
+}
+
+.left-app img {
+    width: 180px;
+}
+
+.download-app {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.qrcode-app img {
+    width: 180px;
+}
+
+.lojas {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-app img {
+    width: 350px;
+    /* margin-top: -70px; */
 }
 
 /* Footer */
